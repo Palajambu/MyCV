@@ -122,7 +122,7 @@ content: "";
     float: left;
 		position: absolute;
 		left: -30px;
-		z-index: 2;
+		z-index: 30;
 }
 
 
