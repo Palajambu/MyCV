@@ -116,7 +116,7 @@ header {position: absolute; left: 0; right: 0; top: 80px; z-index: 2}
 .work::before {
 		content: "";
     display: block;
-    background: url("../images/check.svg") no-repeat;
+    background: url("check.svg") no-repeat;
     width: 20px;
     height: 20px;
     float: left;
