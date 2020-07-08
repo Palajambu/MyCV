@@ -1,0 +1,174 @@
+
+/*
+====================================================
+
+* 	[Master Stylesheet]
+
+	Theme Name :
+	Version    :
+	Author     :
+	Author URI :
+
+====================================================
+
+	TOC
+
+	1. PRIMARY STYLES
+	2. COMMONS FOR PAGE DESIGN
+	3. HEADER
+	4. INTRO SECTION
+	5. PORFOLIO SECTION
+	6. ABOUT SECTION
+	7. EXPERIENCE SECTION
+	8. EDUCATION SECTION
+	9. COUNTER SECTION
+	10. FOOTER
+
+====================================================
+
+
+/* ---------------------------------
+1. PRIMARY STYLES
+--------------------------------- */
+body { font-size: 16px; font-family: 'Poppins', serif;}
+
+h1{ font-size: 4em; line-height: 1; }
+h2{ font-size: 2.2em; line-height: 1.1; }
+h3{ font-size: 1.8em; }
+h4{ font-size: 1.3em; font-weight: bold;}
+h5{ font-size: 1em; font-weight: bold;}
+h6{ font-size: .9em; letter-spacing: 1px; }
+
+.work-section, .skills-section, .reference-section  {background-color: #3b6978; color: white;}
+
+hr {
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 5px;
+  border-color: #ed6663;
+  width: 20%;
+	margin-left: 0;
+}
+
+/* ---------------------------------
+2. HEADER
+--------------------------------- */
+header {position: absolute; left: 0; right: 0; top: 80px; z-index: 2}
+
+.heading-wrapper {background: #ed6663; color: #fff; padding: 30px 40px 20px; border-radius: 10px;}
+
+.info {margin-left: 45px;}
+
+.info2 {margin: 10px 0 0 50px; }
+
+.icon {float: left; font-size: 30px; }
+
+/* ---------------------------------
+3. INTRO SECTION
+--------------------------------- */
+.intro-section{ padding-top: 350px; position: relative; background-size: cover;
+	z-index: 1;background: url(../images/header.png) 0 -350px;}
+
+.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
+		right: 0;}
+
+.intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+				height: 150px; z-index: -1; background: white; }
+
+.intro{text-align: center; background: #fff;}
+
+.profile-wrapper {position: relative; top: -50px;}
+
+.profile-description {text-align: left; padding: 10px 60px 0 60px;}
+
+.nuki-image {width: 20%; border-radius: 50%; position: relative; top: -60px; }
+
+.icon-linkedin {font-size: 30px; margin: 0 10px; position: relative; top: 7px;}
+
+.icon-ovgu {width: 6%; margin-left: 5px;}
+
+.icon-undip {width: 2.5%; margin-left: 5px;}
+
+/* ---------------------------------
+4. NAVBAR SECTION
+--------------------------------- */
+.navbar {background-color: #e8d4b4;}
+
+.navitem {margin-left: 10px;}
+
+/* ---------------------------------
+5. EDUCATION SECTION
+--------------------------------- */
+.education {padding: 30px 0;}
+
+.TT {padding-left: 10px;}
+
+.master-thesis {text-align: center;}
+
+/* ---------------------------------
+6. WORK SECTION
+--------------------------------- */
+.work-section {padding-top: 80px; padding-bottom: 50px;}
+
+.WORK, .work{padding-bottom: 30px;}
+
+.work::before {
+		content: "";
+    display: block;
+    background: url("../images/check.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+		position: absolute;
+		left: -30px;
+		z-index: 1;
+}
+
+.work::after {
+	content: '';
+	width: 0;
+	height: 1180px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	position: absolute;
+	left: -20px;
+	top: 10px;
+}
+
+.ptb {margin-left: 10px; color: white;}
+
+/* ---------------------------------
+7. TRAINING SECTION
+--------------------------------- */
+.training-section {padding-top: 80px; padding-bottom: 50px;}
+
+.training {padding-bottom: 30px;}
+
+/* ---------------------------------
+8. SKILLS SECTION
+--------------------------------- */
+.skills-section {padding-top: 80px; padding-bottom: 50px;}
+
+#SKILL .skills .table {color: white; line-height: 1.1;}
+
+table tr .setcolwidth {width: 23% !important;}
+
+
+/* ---------------------------------
+9. PUBLICATION SECTION
+--------------------------------- */
+.publication-section {padding-top: 80px; padding-bottom: 60px;}
+
+.publication {padding-bottom: 20px;}
+
+.publication-section a:hover{
+  background-color: #ffdbc5;
+}
+
+/* ---------------------------------
+10. REFERENCE SECTION
+--------------------------------- */
+.reference-section {padding-top: 80px; padding-bottom: 60px;}
+
+.reference {padding-bottom: 20px;}
