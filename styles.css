@@ -14,15 +14,16 @@
 	TOC
 
 	1. PRIMARY STYLES
-	2. COMMONS FOR PAGE DESIGN
-	3. HEADER
-	4. INTRO SECTION
-	5. PORFOLIO SECTION
-	6. ABOUT SECTION
-	7. EXPERIENCE SECTION
-	8. EDUCATION SECTION
-	9. COUNTER SECTION
-	10. FOOTER
+	2. HEADER SECTION
+	3. INTRO SECTION
+	4. NAVBAR SECTION
+	5. EDUCATION SECTION
+	6. WORK EXPERIENCE SECTION
+	7. EDUCATION SECTION
+	8. TRAINING SECTION
+	9. SKILL SECTION
+	10. PUBLICATION SECTION
+	11. REFERENCE SECTION
 
 ====================================================
 
@@ -51,7 +52,7 @@ hr {
 }
 
 /* ---------------------------------
-2. HEADER
+2. HEADER SECTION
 --------------------------------- */
 header {position: absolute; left: 0; right: 0; top: 80px; z-index: 2}
 
@@ -67,7 +68,7 @@ header {position: absolute; left: 0; right: 0; top: 80px; z-index: 2}
 3. INTRO SECTION
 --------------------------------- */
 .intro-section{ padding-top: 350px; position: relative; background-size: cover;
-	z-index: 1;background: url(../images/header.png) 0 -350px;}
+	z-index: 1;background: url(header.png) 0 -350px;}
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
 		right: 0;}
